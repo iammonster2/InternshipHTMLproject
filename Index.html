@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Boiler Maker</h1>
+      <p>Software Developer</p>
+    </header>
+
+    <section id="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>
+            I am a passionate and skilled software developer with expertise in
+            web development. I have dedicated myself <br />to mastering various
+            programming languages and technologies, allowing me to create
+            innovative solutions for <br />complex problems. With a keen eye for
+            detail and a commitment to writing clean, efficient code, I strive
+            to deliver <br />high-quality software that exceeds expectations. I
+            am constantly seeking new challenges and opportunities for
+            growth,<br />
+            eager to expand my knowledge and contribute to impactful projects.
+            Outside of coding, I enjoy staying up-to-date with<br />
+            the latest industry trends, collaborating with talented individuals,
+            and continuously honing my skills to stay at the forefront of<br />
+            technology.
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="images/purdue boiler maker.jpg" alt="Boiler Maker" />
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>SQL</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1: E-commerce Website</h3>
+        <p>
+          A fully responsive e-commerce website built with React.js and Node.js.
+          Allows users to browse products, add them to the cart, and complete
+          the checkout process.
+        </p>
+        <a href="#">Demo</a>
+        <a href="#">GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Project 2: Task Management App</h3>
+        <p>
+          An application for managing tasks and projects, built with HTML, CSS,
+          and vanilla JavaScript. Features include task creation, assignment,
+          and status tracking.
+        </p>
+        <a href="#">Demo</a>
+        <a href="#">GitHub</a>
+      </div>
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: B.Maker@example.com</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>LinkedIn: <a href="#">Boiler Maker LinkedIn Profile</a></p>
+    </section>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", sans-serif;
+        background-image: linear-gradient(to right, #ff7e5f, #feb47b, #ffdfa3);
+        animation: animateBackground 20s linear infinite alternate;
+      }
+
+      /* Keyframes for background animation */
+      @keyframes animateBackground {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+
+      header {
+        text-align: center;
+        padding: 20px;
+        color: white;
+      }
+
+      #about,
+      #skills,
+      #projects,
+      #contact {
+        padding: 50px;
+      }
+
+      .about-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .about-text {
+        flex: 1;
+        margin-right: 20px;
+      }
+
+      .about-image {
+        width: 200px;
+      }
+
+      .about-image img {
+        width: 300%;
+        height: auto;
+        margin-left: -370px;
+      }
+
+      section {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        color: #ff7e5f;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      ul li {
+        margin-bottom: 10px;
+      }
+
+      .project {
+        margin-bottom: 20px;
+      }
+
+      a {
+        color: #ff7e5f;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </body>
+</html>
